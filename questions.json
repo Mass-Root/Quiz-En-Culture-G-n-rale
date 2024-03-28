@@ -1,0 +1,110 @@
+{
+  "questions": [
+      {
+          "question": "Quelle est la capitale du Canada ?",
+          "type": "choix_multiple",
+          "options": ["Ottawa", "Toronto", "Montréal", "Québec"],
+          "answer": "Ottawa"
+      },
+      {
+      "question": "Qui a peint la Joconde ?",
+        "type": "reponse_courte",
+        "answer": "Leonard de Vinci"
+      },
+      {
+          "question": "Quel est le plus grand océan du monde ?",
+          "type": "choix_multiple",
+          "options": ["Océan Pacifique", "Océan Atlantique", "Océan Indien", "Océan Arctique"],
+          "answer": "Océan Pacifique"
+      },
+      {
+          "question": "Combien de continents y a-t-il sur Terre ?",
+          "type": "choix_multiple",
+          "options": ["5", "6", "7", "8"],
+          "answer": "7"
+      },
+      {
+          "question": "Quelle est la monnaie du Japon ?",
+          "type": "reponse_courte",
+          "answer": "Yen"
+      },
+      {
+          "question": "Shakespeare a écrit 'Romeo et Juliette'.",
+          "type": "vrai_faux",
+          "answer": "true"
+      },
+      {
+          "question": "Quel est le plus grand désert du monde ?",
+          "type": "choix_multiple",
+          "options": ["Le Sahara", "Le désert de Gobi", "Le désert d'Arabie", "L'Antarctique"],
+          "answer": "Le Sahara"
+      },
+      {
+        "question": "Le Mont Everest n'est pas le plus haut sommet du monde.",
+        "type": "vrai_faux",
+        "answer": "false"
+    },
+      {
+          "question": "Combien de planètes dans notre système solaire ?",
+          "type": "choix_multiple",
+          "options": ["7", "8", "9", "10"],
+          "answer": "8"
+      },
+      {
+          "question": "'La Nuit étoilée' a été peinte par Vincent van Gogh.",
+          "type": "vrai_faux",
+          "answer": "true"
+      },
+      {
+          "question": "Quelle est la langue la plus parlée dans le monde ? XXX (YYY)",
+          "type": "reponse_courte",
+          "answer": "Chinois (Mandarin)"
+      },
+      {
+          "question": "La devise de la France est 'Liberté, Égalité, Paternité'.",
+          "type": "vrai_faux",
+          "answer": "false"
+      },
+      {
+          "question": "Quel est le plus long fleuve du monde ?",
+          "type": "reponse_courte",
+          "answer": "Le Nil"
+      },
+      {
+          "question": "Shakespeare a écrit 'Hamlet'.",
+          "type": "vrai_faux",
+          "answer": "true"
+      },
+      {
+        "question": "Combien de langues officielles en Suisse ?",
+        "type": "choix_multiple",
+        "options": ["1", "2", "3", "4"],
+        "answer": "4"
+    },
+      {
+          "question": "La mer Méditerranée est la plus grande mer du monde.",
+          "type": "vrai_faux",
+          "answer": "false"
+      },
+      {
+          "question": "Christophe Magelan a découvert l'Amérique.",
+          "type": "vrai_faux",
+          "answer": "false"
+      },
+      {
+        "question": "Quelle est la plus grande île du monde ?",
+        "type": "reponse_courte",
+        "answer": "Groenland"
+      },
+      {
+          "question": "Victor Hugo a écrit 'Les Misérables'.",
+          "type": "vrai_faux",
+          "answer": "true"
+      },
+      {
+        "question": "Quel est le plus grand lac d'eau douce au monde ?",
+        "type": "reponse_courte",
+        "answer": "Le lac Supérieur"
+      }
+  ]
+}

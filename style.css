@@ -1,0 +1,126 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Pour que le contenu pousse le footer vers le bas */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Style pour le lien de téléchargement */
+.telechargement {
+    color: rgb(2, 2, 8); /* Couleur du lien */
+    text-decoration: underline; /* Soulignement du lien */
+    font-weight: bold; /* Texte en gras */
+    margin-bottom: 50px;
+}
+
+.telechargement a:hover {
+    color: rgb(18, 18, 237); /* Couleur du lien au survol */
+}
+
+
+header {
+    background-image: url('cadena_bleu.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; /* Centrer l'image de fond */
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+main {
+    flex: 1;
+    padding-top: 50px; 
+    padding-bottom: 50px; 
+    background-color: #F0F0F0; 
+}
+
+#quiz-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #008080;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    width: 15%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #696969;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 0.8em;
+}
+
+.correct {
+    background-color: #006400;
+}
+
+.incorrect {
+    background-color: #800000;
+}
+
+#score-message {
+    background-color: #DCDCDC;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow:#333;
+    width: 15%;
+    margin-left: 59%;
+}
+
+#countdown-timer {
+    position: fixed; /* Rendre la minuterie fixe */
+    top: 20px; /* Positionner la minuterie à 20 pixels du haut */
+    left: 20px; /* Positionner la minuterie à 20 pixels de la gauche */
+    z-index: 9999; /* Assurer que la minuterie est au-dessus de tout le reste */
+   /* color: black;  Couleur de la minuterie */
+}
+
+.red {
+    color: red; /* Couleur rouge pour la minuterie lorsque le temps restant est inférieur à 5 minutes */
+}
+ #note_time {
+    font-style: italic;
+    position: fixed;
+    top: 45px; 
+    left: 20px;
+    z-index: 9999;
+    color: rgb(13, 13, 154);
+    
+ }

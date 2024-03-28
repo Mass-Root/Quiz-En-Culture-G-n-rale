@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Culture Générale</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Quiz de Culture Générale</h1>
+            <p>Testez vos connaissances et amusez-vous!</p>
+        </div>
+    </header>
+    <main>
+        <div id="countdown-timer">Temps restant : 10:00</div>
+        <div id="note_time">La soumission sera effectuée automatiquement<br>une fois que le temps sera écoulé</div>
+        <form id="quiz-form">
+            <div class="container">
+                <div id="quiz-container">
+                    <!-- Les questions seront ajoutées ici dynamiquement -->
+                </div>
+                <button id="submit-btn">Soumettre</button>
+            </div>
+        </form>
+        <div id="score-message">Votre Score s'affichera ici !!!</div> 
+
+        <div class="telechargement">
+            <p>Téléchargez le <a href="fichierPDF.pdf" download>fichier PDF</a> pour trouver les détails du travail.</p>
+        </div>
+    </main> 
+        
+    <footer>
+        <div class="container">
+            <p>Réalisé avec ❤️ par Massoud DIALLO</p>
+        </div>
+    </footer>
+    <script src="quizloader.js"></script>
+    <script src="time.js"></script>
+    <script src="quiz.js"></script>
+</body>
+</html>
